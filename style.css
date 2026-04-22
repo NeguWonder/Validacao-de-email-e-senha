@@ -1,0 +1,91 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(#222650, #204d3f);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.caixa {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40vw;
+    height: 80vh;
+    border: solid red 1px;
+    border-radius: 2em;
+    flex-direction: column;
+    gap: 2em;
+    margin: 0;
+    background-color: #1c1e3d;
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin: 0px 0 10px 0;
+}
+
+.email {
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.senha {
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 1em;
+}
+
+input {
+    width: 15em;
+    height: 1.5em;
+    border-radius: 8px;
+    border-color: rgb(210, 36, 30);
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+h2 {
+    margin: 0px;
+}
+
+img {
+    border-bottom: solid 1px red;
+}
+
+img:hover {
+    border-bottom: 20px red;
+}
+
+button {
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+
+
+button:hover {
+    background-color: rgb(7, 133, 26);
+    font-size: 1.0em;
+    border-radius: 0.4em;
+    transition: 0.1s;
+
+}
+
+
+p::before {
+    content: "⚠ ";
+}
+
+p::after {
+    content: " ";
+}
